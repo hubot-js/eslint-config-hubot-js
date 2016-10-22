@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-hubot-js",
+  "version": "1.0.0",
+  "description": "Eslint config for hubot.js projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robsonbittencourt/eslint-config-hubot-js.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "hubot.js",
+    "hubot"
+  ],
+  "author": "robsonbittencourt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robsonbittencourt/eslint-config-hubot-js/issues"
+  },
+  "homepage": "https://github.com/robsonbittencourt/eslint-config-hubot-js#readme",
+  "devDependencies": {
+    "eslint": "^3.8.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
