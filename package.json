@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-hubot-js",
   "version": "1.0.0",
-  "description": "Eslint config for Hubot.js projects",
+  "description": "Eslint config for hubot.js projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/robsonbittencourt/eslint-config-hubot-js/issues"
   },
-  "homepage": "https://github.com/robsonbittencourt/eslint-config-hubot-js#readme"
+  "homepage": "https://github.com/robsonbittencourt/eslint-config-hubot-js#readme",
+  "devDependencies": {
+    "eslint": "^3.8.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
 }
