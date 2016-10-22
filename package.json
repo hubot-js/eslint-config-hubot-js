@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hubot-js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Eslint config for hubot.js projects",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,12 @@
     "url": "https://github.com/robsonbittencourt/eslint-config-hubot-js/issues"
   },
   "homepage": "https://github.com/robsonbittencourt/eslint-config-hubot-js#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1"
+  },
   "devDependencies": {
     "eslint": "^3.8.1"
   },
